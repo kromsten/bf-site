@@ -1,7 +1,8 @@
-<script>
+<script lang="ts">
+    import { base } from '$app/paths';
 </script>
 
-<img src="/Backgrounds/1_Hero_Background.png" alt="background">
+<img src="{base}/Backgrounds/1_Hero_Background.png" alt="background">
 
 
 <style>

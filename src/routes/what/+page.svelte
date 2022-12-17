@@ -1,8 +1,11 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
 
-<img class="backround" src="/Backgrounds/2_What_Background.png"/>
+<img class="backround" src="{base}/Backgrounds/2_What_Background.png" alt="background"/>
 
 <style>
     .backround {
-        width: 100vw;
+        width: 100%;
     }
 </style>

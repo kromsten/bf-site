@@ -1,6 +1,10 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
+
 <div>
-    <a href="/">
-        <img src="/Buttons/Home-Logo/ButtFace_Website_Logo.png" alt="logo">
+    <a href="{base}/">
+        <img src="{base}/Buttons/Home-Logo/ButtFace_Website_Logo.png" alt="logo">
     </a>
 </div>
 
